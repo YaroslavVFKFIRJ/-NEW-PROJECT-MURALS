@@ -25,7 +25,6 @@ arr2[8]=document.querySelector('#path9');
 arr2[9]=document.querySelector('#path9');
 arr2[10]=document.querySelector('#path11');
 arr2[11]=document.querySelector('#path12');
-
 arr1.forEach(el=>
     el.onclick=()=>{
         for(let i=0;i<=arr2.length;i++){
@@ -35,66 +34,3 @@ arr1.forEach(el=>
             }
         }
     })
-
-
-
-
-
-
-
-
-
-// arr1.forEach(el=>{
-//   el.onclick=()=>{
-//       for(let i=0;i<=arr2.length;i++){
-//           let a=arr2[i].classList.contains('ani');
-//           if(a==true)arr2[i].classList.toggle('ani');
-//       }
-//       for(let g=0;g<=arr2.length;g++){
-//           if(el==arr1[i]) arr2[i].classList.toggle('ani');
-//       }
-//   }
-// })
-
-
-
-
-
-
-// arr1.forEach(el=>{
-// el.onclick=()=>{
-//     let classa=el.className;
-//     arr2.forEach(el1=>{
-//         if(el==arr1)
-//     });
-//     if(el==arr2[0]) arr2[0].classList.remove('animation');
-// el.onclick=()=>{
-//     if(el==arr1[0]) {
-//         arr2[0].classList.toggle('animation');
-//     }
-// }
-  
-            // if (a==false) continue
-            // else arr2[i].classList.remove('animation');
-    
-        
-        // for(let i=0;i<=arr1.length;i++){
-        //     if(el==arr1[i]) arr2[i].classList.add('animation')
-        //      else continue;
-        // }
-//     }
-// );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
