@@ -3,7 +3,6 @@ let SvgArr=document.querySelectorAll('.s0');
 let ToolTip=document.getElementById('tooltip');
 function VisToolTip (per){
 let ToolTipText=per.getAttribute("data-svg");    
-// ToolTip.style.display="block";
 ToolTip.classList.toggle("appear")
 ToolTip.innerHTML=ToolTipText.substr(1);
 };
@@ -24,4 +23,4 @@ InVisToolTip();
 function Moving(el){
 	ToolTip.style.left = (event.clientX + 20)+'px';
 	ToolTip.style.top = (event.clientY + 30)+'px';
- }
+}
