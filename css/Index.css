@@ -10,22 +10,17 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-
     }
-
     * {
         margin: 0;
         padding: 0;
     }
-
     .background {
         display: none;
     }
-
     .wind {
         display: none;
     }
-
     .viswind {
         position: absolute;
         display: flex;
@@ -42,7 +37,6 @@
         left: 0;
         border-radius: 5px 5px 5px 5px;
     }
-
     .visback {
         position: absolute;
         display: block;
@@ -52,14 +46,12 @@
         background-color: #08080873;
         z-index: 2;
     }
-
     .cross {
         position: relative;
         display: block;
         width: 15px;
         height: 15px;
     }
-
     .but {
         position: absolute;
         display: flex;
@@ -74,13 +66,11 @@
         transition: all 0.15s linear;
         cursor: pointer;
     }
-
     .but:hover {
         transform: rotate(90deg);
         transition: all 0.15s linear;
         background-color: #5e5c5c;
     }
-
     .imgmural {
         display: block;
         width: 100%;
@@ -131,7 +121,6 @@
         -webkit-animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
-
     @-webkit-keyframes slide-in-left {
         0% {
             -webkit-transform: translateX(-500px);
