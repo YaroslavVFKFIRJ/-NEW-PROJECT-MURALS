@@ -12,7 +12,6 @@
         line-height: 8vw;
     }
     .logo {
-
         width: 14vw;
         height: 14vw;
     }
@@ -34,7 +33,6 @@
   }
   main svg{
     width: 300%;
-
   }
   .nav1{
       order: 1;
@@ -52,7 +50,6 @@
     width: 80%;
     height: 5vh;
     font-size: 1.5vh;
-    /* font-size: 5px; */
 }
 .nav1 a:hover{
     width: 90%;
