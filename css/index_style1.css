@@ -257,6 +257,10 @@
 .img0.black{
     filter: invert(1);
 }
+.logo.black{
+    border-color: #4F2626;
+    filter: invert(1);
+}    
     .section:hover {
         width: 13vw;
         transition: all 0.2s linear;
