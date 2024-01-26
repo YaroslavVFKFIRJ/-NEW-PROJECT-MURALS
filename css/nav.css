@@ -15,9 +15,6 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: var(--main-color0);
-    /* background-color: rgba(81, 115, 115, 0.22); */
-    /*background-color: #c9c9c9;*/
-    /*overflow: hidden;*/
 }
 .imgmural{
     display: block;
@@ -51,7 +48,6 @@ body{
 }
 .backimg{
     width: 100%;
-    /* height: 300%; */
 }
 .wind_author{
     display: none;
@@ -72,7 +68,6 @@ body{
     width: 450px;
     height: 250px;
     background: url("../img/font_art.jpg") center center / cover;
-    /* background-size: cover; */
     border-radius: 5px 5px 5px 5px;
     z-index: 2;
     margin: auto;
@@ -146,13 +141,11 @@ body{
     height: 126px;
     margin-top: 41px;
 }
-/**/
 .mural{
     width: 30%;
     margin-left:  1%;
     margin-right: 1%;
     margin-top: 4%;
-    /*width: 131px;*/
     height: 126px;
     border-radius: 5px;
     background-color: var(--main-color4);
@@ -186,10 +179,8 @@ header{
     align-items: center;
     background-color: var(--main-color1);
     margin: 0 auto ;
-    /**/
     height: 17%;
 }
-
 .block_header{
     width:60%;
     display: flex;
@@ -199,7 +190,6 @@ header{
     padding-left: 5%;
     margin: 50px 0;
 }
-
 .logo{
     position: relative;
     width: 6vw;
@@ -230,12 +220,9 @@ header{
     display: flex;
     justify-content: center;
     font-size: 4vw;
-    /*line-height: 64px;*/
     color: var(--main-color2);
-    /*font-family: 'Ysabeau SC', sans-serif;*/
     font-family: 'Rubik Vinyl', cursive;
     font-weight: 700;
-    /*border-bottom: solid  #4F2626 5px;*/
 }
 main{
     width: 80%;
@@ -244,7 +231,7 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /**/
+    overflow: hidden;
 }
 .down .brush{
     display: none;
@@ -290,8 +277,6 @@ main h1{
     font-size: 2.5vw;
     margin-bottom: 5px;
     font-weight: 500;
-
-
 }
 .anim h1{
     opacity: 0;
@@ -307,7 +292,6 @@ main h1{
     display: block;
     text-align: center;
     opacity: 1;
-    /* transition: all 5s linear; */
     width:80%;
     color: var(--main-color3);
     font-family: 'Ysabeau SC', sans-serif;
@@ -376,7 +360,6 @@ main h1{
 }
 .h3{
     font-family: 'Ysabeau SC', sans-serif;
-
 }
 .down a{
     display: none ;
@@ -426,19 +409,13 @@ main h1{
     background-position: center;
     left: 75%;
 }
-/**/
-
 @media screen and (max-width: 700px) {
-
-   /*.block_header h1{*/
-        /*font-size: 6vw;*/
-    /*}*/
     main{
         width: 80%;
         height:83%;
         display: flex;
         flex-direction: column;
-        overflow: hidden; /**/
+        overflow: hidden;
     }
     .up h1{
         margin-top: 0%;
@@ -478,7 +455,6 @@ main h1{
         display: none;
         width: 6vw;
     }
-
     .section {
         display: flex;
         justify-content: center;
@@ -545,8 +521,6 @@ main h1{
     header,main, footer{
         width: 100%;
     }
-
-    /*модальное окно инфо*/
     .wind {
         display: none;
     }
@@ -558,7 +532,6 @@ main h1{
     .viswind {
         position: absolute;
         display: flex;
-        /*max-width: 692px;*/
         max-width: 80%;
         height: 70vw;
         background-color: #ffffff;
@@ -571,9 +544,7 @@ main h1{
         right: 0;
         left: 0;
         border-radius: 5px 5px 5px 5px;
-
     }
-
     .visback {
         position: absolute;
         display: block;
@@ -583,7 +554,6 @@ main h1{
         background-color: #08080873;
         z-index: 2;
     }
-
     .cross {
         position: relative;
         top: 0;
@@ -591,7 +561,6 @@ main h1{
         display: block;
         padding: 2vw;
     }
-
     .but {
         position: relative;
         display: flex;
@@ -613,19 +582,16 @@ main h1{
         transition: all 0.15s linear;
         background-color: #5e5c5c;
     }
-
     .imgmural {
         display: block;
         width: 100%;
         height: 100%;
         border-radius: 5px;
     }
-
     .murals {
         display: flex;
         justify-content: space-between;
         width: 60vw;
-        /*height: 50vw;*/
         margin-top: 15px;
     }
     .mural {
@@ -633,12 +599,10 @@ main h1{
         margin-left: 1%;
         margin-right: 1%;
         margin-top: 1%;
-        /*width: 131px;*/
         height: 14vw;
         border-radius: 5px;
         background-color: #7A7575;
     }
-
     .pmural {
         font-size:3.5vw;
         line-height: 3.5vw;
@@ -648,7 +612,6 @@ main h1{
         font-family: sans-serif;
         width: 80%;
     }
-
     header{
         min-height:15% ;
     }
@@ -661,11 +624,7 @@ main h1{
        padding-left: 2vw;
    }
     .logo {
-
         width: 14vw;
         height: 14vw;
     }
 }
-
-
-/**/
