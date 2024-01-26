@@ -3,7 +3,6 @@ arr[0]=document.querySelector('.f1');
 arr[1]=document.querySelector('.f2');
 arr[2]=document.querySelector('.f3');
 arr[3]=document.querySelector('.f4');
-
 arr.forEach(el=>
 el.onclick=()=>
 {
@@ -18,7 +17,6 @@ el.onclick=()=>
         else{
             arr[i].classList.add('down')
         }
-
     }
 }
 )
