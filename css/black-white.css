@@ -10,8 +10,8 @@ input[type='checkbox']{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 120px;
-    height: 156px;
+    width: 15%;
+    height: 100%;
     overflow: hidden;
 }
 input{
