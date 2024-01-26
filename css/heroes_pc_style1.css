@@ -18,7 +18,6 @@
         background-position: top center;
         font-size: 15px;
         cursor: pointer;
-        /* transition: width 0.3s linear; */
     }
     .down h1{
         text-align: center;
@@ -27,7 +26,6 @@
         border-radius: 5px 5px 0 0;
         transform: rotate(0deg);
     }
-
     .image.hr1,
     .image.hr2,
     .image.hr3,
@@ -37,7 +35,6 @@
         display: none;
     }
     .crossdate0 {
-
         position: absolute;
         width: 25px;
         height: 25px;
