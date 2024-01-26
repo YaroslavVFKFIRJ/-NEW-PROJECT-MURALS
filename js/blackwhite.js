@@ -54,7 +54,6 @@ else{
   Back.classList.remove("black");
   WhiteTheme();
 }
-
 Checked.onclick=()=>{
   CheckTheme();
   Info.classList.toggle('black');
