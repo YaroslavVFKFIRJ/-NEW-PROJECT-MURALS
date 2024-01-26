@@ -35,13 +35,3 @@ let mwind=document.querySelector('.mwind');
                }
             }
         });
-        // crossdate.onclick=()=>{
-        //     mwind.classList.remove('vis');
-        //     blur.classList.remove('vis');
-        //     image.classList.remove(classb);
-        //     for(let q=0; q<=arrhref.length; q++){
-        //         if(el==arrhref[q]) arrname[q].classList.toggle('vis')
-        //         else continue;
-        // }
-    
-        
