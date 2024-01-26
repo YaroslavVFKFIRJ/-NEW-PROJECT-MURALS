@@ -78,7 +78,7 @@ body{
     color: black;
 }
 .wind_author h1{
-    font-size: 40px;
+    font-size: 1.4vw;
     font-family: sans-serif;
 }
 .wind{
@@ -529,7 +529,7 @@ main h1{
         padding: 0;
         justify-content: flex-start;
     }
-    .viswind {
+    .wind.viswind {
         position: absolute;
         display: flex;
         max-width: 80%;
