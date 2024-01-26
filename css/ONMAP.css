@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -12,33 +11,22 @@ body {
     align-items: center;
     overflow: hidden;
 }
-
 svg {
     width: 95%;
     height: 100%;
     position: relative;
 }
-/*span{*/
-/*display: none;*/
-/*}*/
-/*.title{*/
-/*display: block;*/
-/*}*/
 #headerMap{
     width: 70%;
 }
 path {
     transition: 1s;
-  
 }
-
 #path3.hover {
     width: 50px;
     fill: red;
     transition: 1s;
-    /*transform: rotateY(110deg);*/
 }
-
 #path4 {
     background: cornsilk;
     border: 1px solid black;
@@ -48,8 +36,6 @@ path {
 }
 #tooltip{
     display: none;
-    /* opacity: 1;
-    transition: all 0.5s linear; */
     position: absolute;
     background-color: var(--main-color2);
     border: solid 1px gray;
@@ -63,8 +49,6 @@ path {
 }
 #tooltip.appear{
     display: block;
-    /* opacity: 0;
-    transition: all 1s linear; */
 }
 .main {
     display: flex;
@@ -73,7 +57,6 @@ path {
     height: 80%;
     background-color: var(--main-color1);
 }
-
 main {
     position: relative;
     display: flex;
@@ -84,9 +67,7 @@ main {
     margin: 0 auto;
     z-index: 1;
     order: 1;
-
 }
-
 .nav1, .nav2 {
     display: flex;
     flex-direction: column;
@@ -94,18 +75,14 @@ main {
     width: 20%;
     height: 100%;
 }
-
 .nav1 {
     align-items: flex-start;
     order: 0;
-
 }
-
 .nav2 {
     align-items: flex-end;
     order: 2;
 }
-
 .nav1 a,
 .nav2 a {
     display: flex;
@@ -120,7 +97,6 @@ main {
     cursor: pointer;
     color: var(--main-color3);
 }
-
 .nav2 a {
     border-radius: 10px 0px 0px 10px;
     transition: all 0.1s linear;
@@ -129,17 +105,13 @@ main {
 .nav1 a:hover{
     width: 100%;
     transition: all 0.15s linear; 
-    /* 0.2 раньше */
     box-shadow: 10px 10px 4px 0px #00000040;
 }
-
 .nav2 a:hover{
     width: 100%;
     transition: all 0.15s linear;
-     /* 0.2 раньше */
     box-shadow: -10px 10px 4px 0px #00000040;
 }
-
 .nav1 a {
     border-radius: 0px 10px 10px 0px;
     transition: all 0.1s linear;
@@ -162,9 +134,7 @@ footer {
     justify-content: space-around;
 
 }
-
 footer div {
-    /*margin-top: 20px;*/
     color: var(--main-color3);
     font-family: 'Rubik Vinyl', cursive;
 
@@ -174,22 +144,16 @@ footer a{
 }
 footer svg {
     animation: ring2 2.5s infinite;
-
 }
 @keyframes ring2 {
     0% {
         filter: drop-shadow(0 0 0 #c2c1bf);
-
     }
     50% {
-
         filter: drop-shadow(0 0 15px  #c2c1bf);
-
     }
     100%{
         filter: drop-shadow(0 0 0 #c2c1bf);
-
-
     }
 }
 .s0{
@@ -203,8 +167,6 @@ footer svg {
 }
 .s0:hover{
     fill: #79181b;
-    /* animation: anima 1s ease-in-out forwards;
-    animation-iteration-count: infinite; */
 }
 .s0:active{
     fill: #ff0008;
@@ -215,10 +177,8 @@ footer svg {
     }
     50% {
         transform: translateY(-15px);
-
     }
 }
-
 .block .content{
     display: flex;
     visibility: hidden;
