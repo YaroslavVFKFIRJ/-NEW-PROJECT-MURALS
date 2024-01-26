@@ -37,11 +37,7 @@ let mwind=document.querySelector('.mwind');
                  if(el==arrhref[q]) arrname[q].classList.remove('vis')
                 else continue;
         }
-    
-		
         }
-		}
-		);
+	}
+	);
 		
-        
-        
