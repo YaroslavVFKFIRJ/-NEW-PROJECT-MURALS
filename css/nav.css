@@ -533,7 +533,7 @@ main h1{
     }
     .wind_author.viswind{
         max-width: 65%;
-        height: 40vw
+        height: 40vw;
         padding: 0;
         justify-content: flex-start;
     }
