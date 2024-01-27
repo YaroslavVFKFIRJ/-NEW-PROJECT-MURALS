@@ -21,7 +21,7 @@
     .wind {
         display: none;
     }
-    .viswind {
+    .wind.viswind{
         position: absolute;
         display: flex;
         max-width: 692px;
@@ -81,7 +81,7 @@
         display: flex;
         justify-content: space-between;
         width: 581px;
-        height: 126px;
+        height: 34%;
         margin-top: 41px;
     }
     .mural {
