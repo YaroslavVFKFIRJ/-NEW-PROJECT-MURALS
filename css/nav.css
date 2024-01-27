@@ -534,7 +534,7 @@ main h1{
         display: flex;
         max-width: 80%;
         height: 70vw;
-        background-color: #ffffff;
+        background-color: var(--main-color3);
         flex-direction: column;
         align-items: center;
         z-index: 2;
