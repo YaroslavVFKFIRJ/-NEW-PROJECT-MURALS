@@ -6,6 +6,8 @@ let background=document.querySelector('.background');
 let buts=document.querySelectorAll('.but');
 let Brushes=document.querySelectorAll(".brush");
 let BrushP=document.querySelector(".brush_p");
+let BrushDate=document.querySelector(".brush_date");
+let BrushPlace=document.querySelector(".brush_place");
 section.onclick=()=>{
     wind.classList.add('viswind');
     background.classList.add('visback');
@@ -19,7 +21,12 @@ buts.forEach(el=>{
 Brushes.forEach(el=>{
 el.onclick=()=>{
     let authors= el.getAttribute("data-autor");
+    let date=el.getAttribute("data-date");
+    let place=el.getAttribute("data-place");
+    console.log(place);
     BrushP.innerHTML=authors.substring(1);
+    BrushDate.innerHTML=date.substring(1);
+    BrushPlace.innerHTML=place.substring(1);
     console.log(authors);
     BrushWindow.classList.add('viswind');
     background.classList.add('visback');
