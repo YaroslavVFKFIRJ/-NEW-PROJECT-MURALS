@@ -1,4 +1,7 @@
 @media screen and (max-width: 700px) {
+    .logo{
+        margin-right: 0px;
+    }
     .block_header h1 {
         font-size: 8vw;
         line-height: 8vw;
