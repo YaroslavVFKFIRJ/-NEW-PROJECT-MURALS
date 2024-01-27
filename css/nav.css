@@ -539,7 +539,7 @@ main h1{
         position: absolute;
         display: flex;
         max-width: 80%;
-        height: 70vw;
+        height: 63vw;
         background-color: var(--main-color3);
         flex-direction: column;
         align-items: center;
@@ -615,7 +615,7 @@ main h1{
         line-height: 3.5vw;
         text-align: center;
         font-weight: 400;
-        margin: 10px 10px 10px 10px;
+        margin: 10px 10px 20px 10px;
         font-family: sans-serif;
         width: 80%;
     }
