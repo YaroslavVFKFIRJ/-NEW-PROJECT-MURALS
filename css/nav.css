@@ -262,10 +262,11 @@ main{
     filter: invert(1);
 }
 .brush_p{
-    font-size: 1.4vw;
+    font-size: 3.8vw;
+    margin: 20px;
 }
 .wind_author h1{
-    font-size: 2.4vw;
+    font-size: 4.4vw;
 }
 .f1,.f2,.f3,.f4,.f5,.f6 {
     position: relative;
@@ -531,7 +532,8 @@ main h1{
         display: none;
     }
     .wind_author.viswind{
-        max-width: 60%;
+        max-width: 65%;
+        height: 40vw
         padding: 0;
         justify-content: flex-start;
     }
@@ -615,7 +617,7 @@ main h1{
         line-height: 3.5vw;
         text-align: center;
         font-weight: 400;
-        margin: 10px 10px 20px 10px;
+        margin: 10px 10px 10px 10px;
         font-family: sans-serif;
         width: 80%;
     }
