@@ -19,11 +19,11 @@
     .wind {
         display: none;
     }
-    .viswind {
+    .wind.viswind {
         position: absolute;
         display: flex;
         max-width: 80%;
-        height: 70vw;
+        height: 63vw;
         background-color: var(--main-color3);
         flex-direction: column;
         align-items: center;
@@ -79,7 +79,8 @@
         display: flex;
         justify-content: space-between;
         width: 60vw;
-        margin-top: 15px;
+        height: 24%;
+        margin-top: 0;
     }
     .mural {
         width: 30%;
@@ -95,11 +96,11 @@
         line-height: 3.5vw;
         text-align: center;
         font-weight: 400;
-        margin: 10px;
+        margin: 10px 10px 20px 10px;
         font-family: sans-serif;
-        filter: invert(0.9);
+        filter: invert(1);
         color: var(--main-color3);
-        width: auto;
+        width: 80%;
     }
     .shadow {
         display: flex;
